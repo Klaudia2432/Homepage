@@ -1,15 +1,97 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-    background-color: #fefefe;
+    font-family: "Courier New", sans-serif;
+    color: #fff;
+    background: rgb(25,138,105);
+    background: linear-gradient(344deg, rgba(25,138,105,1) 0%, rgba(0,0,0,1) 88%);
+}
+
+#user-nav-menu {
+    padding: 15px;
+    background-color: #000;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    padding: 10px;
+}
+
+#user-nav-menu div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#user-nav-menu a {
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#user-nav-menu a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+#frontend-image {
+    width: 600px;
+    height: 400px;
+}
+
+main {
+    margin-left: 60px;
+}
+
+.header-title {
+    color: mediumseagreen;
+    margin: 40px 60px 20px 60px;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 20px 30px 40px 0;
+}
+
+.article-content {
+    margin: 30px 60px 30px 0;
+}
+
+.footer-content {
+    margin-left: 60px;
 }
 
 h2 {
-    color: #1460AA;
+    color: seagreen;
 }
 
 h3 {
-    color: #1491AA;
+    color: darkseagreen;
+}
+
+/*html page*/
+
+#html-image {
+    width: 600px;
+    height: 400px;
+}
+
+/*css page*/
+
+#css-image {
+    width: 600px;
+    height: 400px;
+}
+
+/*js page*/
+
+#js-image {
+    width: 600px;
+    height: 450px;
 }
