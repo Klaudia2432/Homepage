@@ -9,69 +9,47 @@
     <title>WTF - Course notes</title>
 </head>
 <body>
-    <main>
-        <header>
-            <h1>WTF - What the frontend notes</h1>
-            <nav>
+<header>
+    <nav>
+        <div id="user-nav-menu">
+            <div id="logo">
+                <a href="index.html"><p>WTF</p></a>
+            </div>
+            <div>
                 <a href="index.html">Homepage</a>
                 <a href="learning-html.html">Learning HTML</a>
-            </nav>
-        </header>
-        <section>
-            <h2>Week 2</h2>
-            <article>
-                <h3>HTML</h3>
-                <p>HTML (HyperText Markup Language)</p>
-                <p><strong>HTML</strong> odpowiada za <em>treść</em> *a właściwie za jej właściwe opakowanie</p>
-                <p>Treść to:
-                    - Teksty
-                    - Nagłówki
-                    - Linki
-                    - Listy
-                    - Definicje
-                    - Obrazki
-                    - Video
-                    - Formularze
-                    - Wszystko co jest nośnikiem informacji</p>
-                <p><u>HTML</u> składa się ze znaczników/tagów/elementów<br>Semantyczny = mający znaczenie<br>
-                HTML to szkielet strony internetowej *nawet ma taką budowę! <br>main - glowna czesc dokumentu<br>
-                section - Sekcje dokumentu <br>article - Samodzielne treści <br>header - Nagłówek - dokumentu / sekcji / artykułu<br>
-                footer - Stopka - dokumentu / sekcji / artykułu<br>h1-h6 - Tekstowe nagłówki tytułowe - dokumentu / sekcji / artykułu<br>
-                p - Paragraf / akapit<br>Checking that html is semantic - https://validator.w3.org/nu/#textarea</p>
-                <h4>HTML:</h4>
-                <p>Opakowuje i opisuje treść strony
-                    - Mówi przeglądarce o strukturze dokumentu (i o tym co ma wczytać)
-                    - Posiada swoją zdefiniowaną składnie
-                    - Nie jest językiem programowania, jest językiem znaczników (Markup Language)
-                    - HTML5 stał się tak zwanym "living standard"
-                    - Całą specyfikację znajdziesz na stronie w3c</p>
-            </article>
-            <article>
-                <h3>CSS</h3>
-                <p>CSS (Cascading Style Sheets)</p>
-                <p>CSS odpowiadają za prezentację. CSS wpływają na wygląd elementów HTML na ekranie, wydrukach itp.</p>
-                <p>Składnia CSS to reguły</p>
-                <p>Odpowiadają za prezentację treści strony
-                    - Nie mają jednej wersji (rozwój modułów), potocznie mówi się, że aktualna wersja to 3
-                    - Przeglądarki potrafią różnie interpretować CSS co prowadzi do tego, że...
-                    - … pisanie stylów powoduje wiele frustracji u programistów (ale jest też niezłym wyzwaniem :))
-                    - Całą specyfikację znajdziesz na stronie w3c</p>
-            </article>
-            <article>
-                <h3>JS</h3>
-                <p>Javascript</p>
+                <a href="learning-css.html">Learning CSS</a>
+                <a href="learning-javascript.html">Learning JavaScript</a>
+            </div>
+        </div>
 
-            </article>
-            <article>
-                <h3>Magic of programming</h3>
-                <p>Programowanie jak gotowanie *tylko przepisy często wymyślamy na bieżąco</p>
-                <p>Myslenie jak programisci</p>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>Created by Klaudia</p>
-    </footer>
+    </nav>
+    <h1 class="header-title">WTF - What the frontend course notes</h1>
+</header>
+<main>
+    <section>
+        <h2 class="section-title">About the course</h2>
+        <article>
+
+            <h3 class="section-title">Frontend development</h3>
+            <img id="frontend-image" src="frontend.png" alt="frontend photo from internet">
+
+            <p class="article-content">WTF What the frontend (origin. WTF Co ten Frontend) jest to kurs prowadzony przez Maćka Korsana,
+                <br>w którym można się nauczyć różnych aspektów frontendu zaczynając od podstaw. <br>
+                Z tego powodu kurs ten nie wymaga żadnej wiedzy programistycznej, można go na spokojnie zacząć od podstaw. <br>
+                W kursie tym jest przedstawiona zarówno teoria jak i praktyka.</p>
+            <p class="article-content">Ważne jest to aby mieć motywację i systematycznie przerabiać kurs, ale to co jest najważniejsze to praktyka.<br>
+                Tylko praktyka, czyli: <br>
+                - Systematyczne przerabianie kursu <br>
+                - Sluchanie i próbowanie żrozumieć materiał bez przepisywania kodu <br>
+                - Praktykowanie po przez odrabianie prac domowych po każdym tygodniu nauki <br>
+                Sprawi, że będziesz się w stanie efektywnie uczyć frontend developmentu.
+            </p>
+        </article>
+    </section>
+</main>
+<footer class="footer-content">
+    <p>Created by Klaudia</p>
+</footer>
 </body>
 </html>
-
