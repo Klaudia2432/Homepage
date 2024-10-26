@@ -11,30 +11,30 @@
 <body>
 <header>
     <nav>
-        <div id="user-nav-menu">
-            <div id="logo">
-                <a href="index.html"><p>WTF</p></a>
+        <div id="user-nav-menu" class="navigation">
+            <div id="logo" class="navigation__logo">
+                <a href="index.html" class="navigation__logo--link"><p>WTF</p></a>
             </div>
-            <div>
-                <a href="index.html">Homepage</a>
-                <a href="learning-css.html">Learning CSS</a>
-                <a href="learning-javascript.html">Learning JavaScript</a>
+            <div class="navigation__links">
+                <a href="index.html" class="navigation__links--element-link">Homepage</a>
+                <a href="learning-css.html" class="navigation__links--element-link">Learning CSS</a>
+                <a href="learning-javascript.html" class="navigation__links--element-link">Learning JavaScript</a>
             </div>
         </div>
 
     </nav>
-    <h1 class="header-title">Learning HTML</h1>
+    <h1 class="header__title">Learning HTML</h1>
 </header>
 <main>
 
-    <section>
-        <h2>Week 2</h2>
+    <section class="section">
+        <h2 class="section__header">Week 2</h2>
         <article>
-            <h3 class="section-title">HTML</h3>
-            <img src="html.webp" id="html-image"
+            <h3 class="section__title">HTML</h3>
+            <img src="html.webp" id="html-image" class="section__html--image"
                  alt="HTML photo from internet - https://verpex.com/assets/uploads/images/blog/Basic-HTML-Codes-for-Websites.webp?v=1691760654">
 
-            <p class="article-content">HTML (HyperText Markup Language) <br>
+            <p class="section__article--content">HTML (HyperText Markup Language) <br>
             <strong>HTML</strong> odpowiada za <em>treść</em> *a właściwie za jej właściwe opakowanie <br>
             Treść to: <br>
                 - Teksty <br>
@@ -52,21 +52,21 @@
                 footer - Stopka - dokumentu / sekcji / artykułu<br>h1-h6 - Tekstowe nagłówki tytułowe - dokumentu / sekcji / artykułu<br>
                 p - Paragraf / akapit<br>Checking that html is semantic - https://validator.w3.org/nu/#textarea</p>
             <h4>HTML:</h4>
-            <p class="article-content">Opakowuje i opisuje treść strony <br>
+            <p class="section__article--content">Opakowuje i opisuje treść strony <br>
                 - Mówi przeglądarce o strukturze dokumentu (i o tym co ma wczytać) <br>
                 - Posiada swoją zdefiniowaną składnie <br>
                 - Nie jest językiem programowania, jest językiem znaczników (Markup Language) <br>
                 - HTML5 stał się tak zwanym "living standard" <br>
                 - Całą specyfikację znajdziesz na stronie w3c</p>
         </article>
-        <h2>Week 3</h2>
+        <h2 class="section__header">Week 3</h2>
         <article>
-            <h3>Znaczniki HTML</h3>
-            <p class="article-content">TODO</p>
+            <h3 class="section__title">Znaczniki HTML</h3>
+            <p class="section__article--content">TODO</p>
         </article>
     </section>
 </main>
-<footer class="footer-content">
+<footer class="footer__content">
     <p>Created by Klaudia</p>
 </footer>
 </body>

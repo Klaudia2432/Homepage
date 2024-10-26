@@ -10,7 +10,7 @@ body {
     background: linear-gradient(344deg, rgba(25,138,105,1) 0%, rgba(0,0,0,1) 88%);
 }
 
-#user-nav-menu {
+.navigation {
     padding: 15px;
     background-color: #000;
     opacity: 0.8;
@@ -19,55 +19,63 @@ body {
     align-items: center;
 }
 
-#logo {
+.navigation__logo {
     padding: 10px;
-}
-
-#user-nav-menu div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-#user-nav-menu a {
+.navigation__logo--link {
     padding: 10px 15px 20px 30px;
     color: #ffffff;
     text-decoration: none;
 }
 
-#user-nav-menu a:hover {
+.navigation__logo--link:hover {
     color: orange;
     text-decoration: none;
 }
 
-#frontend-image {
-    width: 600px;
-    height: 400px;
+.navigation__links--element-link {
+    padding: 10px 15px 20px 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation__links--element-link:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.header__title {
+    color: mediumseagreen;
+    margin: 40px 60px 20px 60px;
 }
 
 main {
     margin-left: 60px;
 }
 
-.header-title {
-    color: mediumseagreen;
-    margin: 40px 60px 20px 60px;
-}
-
-.section-title {
+.section__title {
     font-size: 24px;
     margin: 20px 30px 40px 0;
 }
 
-.article-content {
+.section__frontend--image {
+    width: 600px;
+    height: 400px;
+}
+
+.section__article--content {
     margin: 30px 60px 30px 0;
 }
 
-.footer-content {
+.footer__content {
     margin-left: 60px;
 }
 
-h2 {
+.section__header {
     color: seagreen;
 }
 
@@ -77,21 +85,21 @@ h3 {
 
 /*html page*/
 
-#html-image {
+.section__html--image {
     width: 600px;
     height: 400px;
 }
 
 /*css page*/
 
-#css-image {
+.section__css--image {
     width: 600px;
     height: 400px;
 }
 
 /*js page*/
 
-#js-image {
+.section__js--image {
     width: 600px;
     height: 450px;
 }
