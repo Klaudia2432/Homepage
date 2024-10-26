@@ -60,11 +60,14 @@ main {
 .section__title {
     font-size: 24px;
     margin: 20px 30px 40px 0;
+    color: darkseagreen;
 }
 
 .section__frontend--image {
-    width: 600px;
-    height: 400px;
+    max-width: 70vw;
+    max-height: 22vh;
+    border: 10px solid black;
+    border-radius: 17px;
 }
 
 .section__article--content {
@@ -73,33 +76,36 @@ main {
 
 .footer__content {
     margin-left: 60px;
+    padding: 30px 0;
 }
 
 .section__header {
     color: seagreen;
 }
 
-h3 {
-    color: darkseagreen;
-}
-
 /*html page*/
 
 .section__html--image {
-    width: 600px;
-    height: 400px;
+    max-width: 70vw;
+    max-height: 22vh;
+    border: 10px solid black;
+    border-radius: 17px;
 }
 
 /*css page*/
 
 .section__css--image {
-    width: 600px;
-    height: 400px;
+    max-width: 70vw;
+    max-height: 22vh;
+    border: 10px solid black;
+    border-radius: 17px;
 }
 
 /*js page*/
 
 .section__js--image {
-    width: 600px;
-    height: 450px;
+    max-width: 70vw;
+    max-height: 22vh;
+    border: 10px solid black;
+    border-radius: 17px;
 }
