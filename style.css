@@ -57,10 +57,18 @@ main {
     margin-left: 60px;
 }
 
+.section__header {
+    color: seagreen;
+}
+
 .section__title {
     font-size: 24px;
     margin: 20px 30px 40px 0;
     color: darkseagreen;
+}
+
+.section__description {
+    padding-bottom: 15px;
 }
 
 .section__frontend--image {
@@ -77,10 +85,6 @@ main {
 .footer__content {
     margin-left: 60px;
     padding: 30px 0;
-}
-
-.section__header {
-    color: seagreen;
 }
 
 /*html page*/
