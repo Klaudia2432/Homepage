@@ -7,11 +7,11 @@ body {
     font-family: "Courier New", sans-serif;
     color: #fff;
     background: rgb(25,138,105);
-    background: linear-gradient(344deg, rgba(25,138,105,1) 0%, rgba(0,0,0,1) 88%);
+    background: linear-gradient(360deg, rgba(25,138,105,1) 0%, rgba(0,0,0,1) 78%);
 }
 
 .navigation {
-    padding: 15px;
+    padding: 0 15px;
     background-color: #000;
     opacity: 0.8;
     display: flex;
