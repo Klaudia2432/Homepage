@@ -67,6 +67,9 @@ main {
     color: darkseagreen;
 }
 
+.section__description--header {
+}
+
 .section__description {
     padding-bottom: 15px;
 }
@@ -112,4 +115,19 @@ main {
     max-height: 22vh;
     border: 10px solid black;
     border-radius: 17px;
+}
+
+@media (min-width: 768px) {
+    body {
+        margin: 1vh 17vh;
+    }
+
+    .section__description--header {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+    }
+
+    .section__article--content {
+        margin: 5vh 15vh 5vh 0;
+    }
 }
