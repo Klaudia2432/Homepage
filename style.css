@@ -117,7 +117,21 @@ main {
     border-radius: 17px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1219px) {
+    body {
+        margin: 1vh 4vh;
+    }
+
+    .section__description--header {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+    }
+    .section__article--content {
+        margin: 5vh 2vh 5vh 0;
+    }
+}
+
+@media (min-width: 1220px) {
     body {
         margin: 1vh 17vh;
     }
