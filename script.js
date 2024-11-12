@@ -18,3 +18,9 @@ sayHello = (user, age) => {
 }
 
 console.log(sayHello('Klaudia', 27))
+
+const hamburgerBtn = document.querySelector('.button-open-js');
+hamburgerBtn.addEventListener('click', () => {
+    const navigation = document.querySelector('.navigation--js')
+    navigation.classList.toggle('navigation-open')
+})

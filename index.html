@@ -10,11 +10,14 @@
 </head>
 <body>
 <header>
-    <nav>
-        <div id="user-nav-menu" class="navigation">
+    <nav class="nav-container">
+        <div class="logo-container">
             <div id="logo" class="navigation__logo">
                 <a href="index.html" class="navigation__logo--link"><p>WTF</p></a>
             </div>
+            <button class="button-open-js button-open" id="button-open" aria-label="menu">🍔</button>
+        </div>
+        <div id="user-nav-menu" class="navigation navigation--js">
             <div class="navigation__links">
                 <a href="index.html" class="navigation__links--element-link">Homepage</a>
                 <a href="learning-html.html" class="navigation__links--element-link">Learning HTML</a>
@@ -22,7 +25,6 @@
                 <a href="learning-javascript.html" class="navigation__links--element-link">Learning JavaScript</a>
             </div>
         </div>
-
     </nav>
     <h1 class="header__title">WTF - What the frontend course notes</h1>
 </header>
