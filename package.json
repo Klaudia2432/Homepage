@@ -10,10 +10,15 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "date-fns": "^4.1.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.0",
+    "@parcel/transformer-typescript-tsc": "^2.13.2",
     "parcel": "^2.13.0"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
