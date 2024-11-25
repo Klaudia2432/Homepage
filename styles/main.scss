@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Salsa&display=swap');
+@import "nav";
 
 * {
   box-sizing: border-box;
@@ -38,84 +39,6 @@ body {
 
   @media (min-width: 1220px) {
       display: none;
-    }
-
-}
-
-.nav-container {
-  background-color: black;
-  @media (min-width: 768px) and (max-width: 1219px) {
-      display: flex;
-      justify-content: space-between;
-    }
-
-  @media (min-width: 1220px) {
-      display: flex;
-      justify-content: space-between;
-    }
-}
-
-.navigation {
-  padding: 0 15px;
-  background-color: #000;
-  opacity: 0.8;
-  display: none;
-
-  @media (min-width: 768px) and (max-width: 1219px) {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-  @media (min-width: 1220px) {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-}
-
-.navigation-open {
-  display: flex;
-}
-
-.navigation__logo {
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  &--link {
-    padding: 10px 15px 20px 30px;
-    color: #ffffff;
-    text-decoration: none;
-    :hover {
-      color: orange;
-      text-decoration: none;
-    }
-  }
-}
-
-.navigation__links {
-  display: flex;
-  flex-direction: column;
-  &--element-link {
-    padding: 10px 15px 20px 30px;
-    color: #ffffff;
-    text-decoration: none;
-    &:hover {
-      color: orange;
-      text-decoration: none;
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 1219px) {
-      display: flex;
-      flex-direction: row;
-    }
-
-  @media (min-width: 1220px) {
-      display: flex;
-      flex-direction: row;
     }
 
 }
